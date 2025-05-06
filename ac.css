@@ -1,0 +1,761 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.evm{
+    height: 1300px;
+    width: 880px;
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color: aqua;
+    border: 5px;
+    border-color: rgb(255, 0, 0);
+    border-style: groove;
+}
+
+.container{
+    position: relative;
+    margin: 5px;
+    /* padding: 5px; */
+
+    height: 170px;
+    display: flex;
+    width: 850px;
+    background-color: rgba(161, 239, 164, 0.802);
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+
+
+}
+
+
+#candi{
+    display: flex;
+    height: 168px;
+    width: 600px;
+    background-color: rgb(0, 166, 255);
+}
+
+#candi1{
+    /* position: absolute; */
+    display: flex;
+    height: 168px;
+    width: 250px;
+    background-color: rgb(198, 216, 197) ;
+    border: 2px;
+    border-radius: 5px;
+    border-color: rgb(245, 106, 255);
+    border-style: groove;
+
+}
+
+
+#candi2{
+    display: flex;
+    height: 168px;
+    width: 600px;
+    background-color: rgb(0, 166, 255);
+
+
+
+}
+#candi3{
+    display: flex;
+    height: 168px;
+    width: 250px;
+    background-color: rgb(198, 216, 197);
+    border: 2px;
+    border-radius: 5px;
+    border-color: rgb(245, 106, 255);
+    border-style: groove;
+
+
+
+}
+
+
+
+#candi4{
+    display: flex;
+    height: 168px;
+    width: 600px;
+    background-color: rgb(0, 166, 255);
+}
+#candi5{
+    display: flex;
+    height: 168px;
+    width: 250px;
+    background-color: rgb(198, 216, 197);
+    border: 2px;
+    border-radius: 5px;
+    border-color: rgb(245, 106, 255);
+    border-style: groove;
+
+
+
+}
+
+
+#candi6{
+    
+    display: flex;
+    height: 168px;
+    width: 600px;
+    background-color: rgb(0, 166, 255);
+}
+#candi7{
+    display: flex;
+    
+    height: 168px;
+    width: 250px;
+    background-color: rgb(198, 216, 197);
+    border: 2px;
+    border-radius: 5px;
+    border-color: rgb(245, 106, 255);
+    border-style: groove;
+
+
+
+}
+
+#candi8{
+    display: flex;
+    height: 168px;
+    width: 600px;
+    background-color: rgb(0, 166, 255);
+}
+#candi9{
+    display: flex;
+    height: 168px;
+    width: 250px;
+    background-color: rgb(198, 216, 197);
+    border: 2px;
+    border-radius: 5px;
+    border-color: rgb(245, 106, 255);
+    border-style: groove;
+
+
+
+}
+
+#candi10{
+    display: flex;
+    height: 168px;
+    width: 600px;
+    background-color: rgb(0, 166, 255);
+}
+#candi11{
+    display: flex;
+    height: 168px;
+    width: 250px;
+    background-color: rgb(198, 216, 197);
+    border: 2px;
+    border-radius: 5px;
+    border-color: rgb(245, 106, 255);
+    border-style: groove;
+
+
+
+}
+
+
+#candi12{
+    display: flex;
+    height: 168px;
+    width: 600px;
+    background-color: rgb(0, 166, 255);
+}
+#candi13{
+    display: flex;
+    height: 168px;
+    width: 250px;
+    background-color: rgb(198, 216, 197);
+    border: 2px;
+    border-radius: 5px;
+    border-color: rgb(245, 106, 255);
+    border-style: groove;
+
+
+
+}
+
+#candidate1{
+    
+    height: 167px;
+    width: 380px;
+    background-color: rgb(250, 181, 54);
+    border: 2px;
+    border-radius: 5px;
+    border-color: rgb(245, 106, 255);
+    border-style: groove;
+
+}
+
+
+#symbol1{
+    
+    height: 167px;
+    width: 220px;
+    background-color: rgb(210, 197, 228);
+    border: 2px;
+    border-radius: 5px;
+    border-color: rgb(245, 106, 255);
+    border-style: groove;
+
+
+
+}
+
+#button1{
+    position: absolute;
+
+    height: 60px;
+    width: 160px;
+    
+    /* background-color: blue ; */
+    margin-top: 50px;
+    margin-left: 80px;
+    border-width: 5px;
+    
+    border-color:rgb(0, 0, 0) ;
+    background-color: blue ;
+    
+    border-radius: 50px;
+}
+
+
+#button2{
+    position: absolute;
+
+    height: 60px;
+    width: 160px;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(255, 246, 246); */
+    margin-top: 50px;
+    margin-left: 80px;
+    
+    border-radius: 50px;
+    border-width: 5px;
+    
+    border-color:rgb(0, 0, 0) ;
+    background-color: blue ;
+}
+
+
+#button3{
+    position: absolute;
+
+    height: 60px;
+    width: 160px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 246, 246);
+    margin-top: 50px;
+    margin-left: 80px;
+    
+    border-radius: 50px;
+    border-width: 5px;
+    
+    border-color:rgb(0, 0, 0) ;
+    background-color: blue ;
+}
+
+
+#button4{
+    position: absolute;
+
+    height: 60px;
+    width: 160px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 246, 246);
+    margin-top: 50px;
+    margin-left: 80px;
+    
+    border-radius: 50px;
+    border-width: 5px;
+    
+    border-color:rgb(0, 0, 0) ;
+    background-color: blue ;
+}
+
+
+#button5{
+    position: absolute;
+    height: 60px;
+    width: 160px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 246, 246);
+    margin-top: 50px;
+    margin-left: 80px;
+    
+    border-radius: 50px;
+    border-width: 5px;
+    
+    border-color:rgb(0, 0, 0) ;
+    background-color: blue ;
+}
+
+
+#button6{
+    position: absolute;
+
+    height: 60px;
+    width: 160px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 246, 246);
+    margin-top: 50px;
+    margin-left: 80px;
+    
+    border-radius: 50px;
+    border-width: 5px;
+    
+    border-color:rgb(0, 0, 0) ;
+    background-color: blue ;
+}
+
+
+#button7{
+    position: absolute;
+
+    height: 60px;
+    width: 160px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 246, 246);
+    margin-top: 50px;
+    margin-left: 80px;
+    
+    border-radius: 50px;
+    border-width: 5px;
+    
+    border-color:rgb(0, 0, 0) ;
+    background-color: blue ;
+}
+
+
+
+.dot{
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    margin-top: 62px;
+    margin-left: 13px;
+    background-color: red;
+
+}
+
+
+#bjp{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#cong{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+
+#samaj{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#ljp{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#admi{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#bsp{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+
+#jdu{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+#modi{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+#rahul{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#akhilesh{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#chirag{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#maya{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+#arvind{
+    height: 150px;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#nitish{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.voteof{
+    position: absolute;
+    
+    height: 900px;
+    width: 1360px;
+    background-color: rgb(150, 150, 210);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+#vote1{
+    position: relative;
+    height: 40px;
+    width: 240px;
+    background-color: rgb(91, 91, 180);
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+#vote2{
+    position: relative;
+    height: 40px;
+    width: 240px;
+    background-color: rgb(91, 91, 180);
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#vote3{
+    position: relative;
+    height: 40px;
+    width: 240px;
+    background-color: rgb(91, 91, 180);
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#vote4{
+    position: relative;
+    height: 40px;
+    width: 240px;
+    background-color: rgb(91, 91, 180);
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#vote5{
+    position: relative;
+    height: 40px;
+    width: 240px;
+    background-color: rgb(91, 91, 180);
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#vote6{
+    position: relative;
+    height: 40px;
+    width: 240px;
+    background-color: rgb(91, 91, 180);
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#vote7{
+    position: relative;
+    height: 40px;
+    width: 240px;
+    background-color: rgb(91, 91, 180);
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+
+/* .voteof{
+    position: absolute;
+    
+    height: 1000px;
+    width: 1000px;
+    background-color: rgb(150, 150, 210);
+    margin-top: 20px;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 10px;
+} */
+
+
+
+
+.votecount{
+    position:absolute;
+    
+    display: flex;
+    
+    height: 100px;
+    width: 1375px;
+    background-color: rgb(162, 148, 238);
+   
+    border-radius: 10px;
+    
+}
+
+
+
+.votecounting{
+
+    position:absolute;
+    
+    display: flex;
+    
+    height: 600px;
+    width: 1360px;
+    background-color: rgb(72, 73, 81);
+
+    margin-top: 100px;
+   
+    border-radius: 10px;
+    
+
+}
+
+
+#timeContainer1{
+    position: relative;
+    height: 500px;
+    width: 200px;
+    background-color: rgb(146, 146, 228);
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-radius: 10px;
+    overflow-y: scroll;
+
+}
+
+#timeContainer2{
+    position: relative;
+    height: 500px;
+    width: 200px;
+    background-color: rgb(146, 146, 228);
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-radius: 10px;
+
+}
+
+#timeContainer3{
+    position: relative;
+    height: 500px;
+    width: 200px;
+    background-color: rgb(146, 146, 228);
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-radius: 10px;
+
+}
+
+#timeContainer4{
+    position: relative;
+    height: 500px;
+    width: 200px;
+    background-color: rgb(146, 146, 228);
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-radius: 10px;
+
+}
+
+#timeContainer5{
+    position: relative;
+    height: 500px;
+    width: 200px;
+    background-color: rgb(146, 146, 228);
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-radius: 10px;
+
+}
+
+#timeContainer6{
+    position: relative;
+    height: 500px;
+    width: 200px;
+    background-color: rgb(146, 146, 228);
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-radius: 10px;
+
+}
+
+#timeContainer7{
+    position: relative;
+    height: 500px;
+    width: 200px;
+    background-color: rgb(170, 167, 243);
+    margin-top: 5px;
+    margin-left: 5px;
+    overflow-y: scroll;
+    padding: 5px;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-radius: 10px;
+   
+    
+
+}
+
+
+h4{
+    position:sticky;
+    height: 2;
+    width: 160px;
+    background-color: rgb(190, 212, 212);
+    padding-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    /* padding-top: 5px; */
+
+}
+
+h3{
+
+    position:relative;
+    height: 40px;
+    width: 400px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    align-content: center;
+    margin-left: 400px;
+    
+    background-color: rgb(190, 212, 212);
+    padding-left: 10px;
+    border-radius: 5px;
+    text-align:center;
+
+}
+
+
+   
+
+
+
+
+
+
+
+
+

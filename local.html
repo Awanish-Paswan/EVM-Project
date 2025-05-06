@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append System Real-Time on Button Click</title>
+</head>
+<body>
+
+    <h1>System Real-Time on Button Click</h1>
+    <button id="showTimeButton">Show Current Time</button>
+    <div id="timeContainer"></div>
+
+    <script>
+        // Function to display and append the current system time
+        function showCurrentTime() {
+            const now = new Date();
+            const timeString = now.toLocaleString(); // Current date and time in the system's locale format
+            
+            // Create a new paragraph element for each time entry
+            const timeEntry = document.createElement('p');
+            timeEntry.textContent = 'Voting Time: ' + timeString;
+            
+            // Append the new time entry to the container
+            document.getElementById('timeContainer').appendChild(timeEntry);
+        }
+
+        // Event listener for the button click
+        document.getElementById('showTimeButton').addEventListener('click', showCurrentTime);
+    </script>
+
+</body>
+</html>
